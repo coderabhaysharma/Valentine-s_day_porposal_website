@@ -1,0 +1,197 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VALENTINE'S DAY</title>
+ <link
+      rel="icon"
+      type="image/png"
+      sizes="100%"
+      href="https://cdn-icons-png.flaticon.com/512/9444/9444300.png"
+    />
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #d43ae5;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.loader {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+.loader > span {
+  display: inline-block;
+  color: #fff;
+  transform-style: preserve-3d;
+  transform-origin: 0 100%;
+  animation: anim 3s infinite linear;
+}
+.loader > span:nth-child(even) {
+  color: #69098d;
+}
+.loader > span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loader > span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.loader > span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.loader > span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.loader > span:nth-child(6) {
+  animation-delay: 1s;
+}
+.loader > span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+.loader > span:nth-child(8) {
+  animation-delay: 1.4s;
+}
+.loader > span:nth-child(9) {
+  animation-delay: 1.6s;
+}
+.loader > span:nth-child(10) {
+  animation-delay: 1.8s;
+}
+.loader > span:nth-child(11) {
+  animation-delay: 2s;
+}
+.loader > span:nth-child(12) {
+  animation-delay: 2.2s;
+}
+.loader > span:nth-child(13) {
+  animation-delay: 2.4s;
+}
+.loader > span:nth-child(14) {
+  animation-delay: 2.6s;
+}
+@keyframes anim {
+  50% {
+    transform: rotateX(360deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+  
+p {
+text-align: center;
+font-size: 32px;
+font-family: Georgia, serif;
+}
+img {
+display: block;
+margin: 0 auto;
+width: 23%;
+}
+body {
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210123/pngtree-couple-paper-cut-plant-love-cloud-valentine-pink-background-image_539162.jpg"); */
+  background-image: url("https://images.pexels.com/photos/1085976/pexels-photo-1085976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: rgb(217, 230, 214);
+  color: rgb(103, 42, 99);
+}
+
+
+
+</style>
+</head>
+<body>
+  <div class="loader">
+    
+    <span>H</span>
+    <span>E</span>
+    <span>Y</span>
+    <span>_</span>
+    <span>_</span>
+    <span>B</span>
+    <span>U</span>
+    <span>G</span>
+    <span>L</span>
+    <span>I</span>
+    
+  </div>
+  
+  
+  
+  <center>
+    <h2 style= "color: #5c0880;">WILL YOU BE MY VALENTINE?😌</h2>
+  </center>
+ 
+  
+ 
+<img src="https://media.tenor.com/IM4-RWRjSNgAAAAM/kiss.gif">
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/73K33p4Vyz9koXGqmL5eFs?utm_source=generator" width="40%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</body>
+<title>Buttons</title>
+<style>
+#Button1 {
+position: fixed;
+top: 70%;
+left: 55%;
+transform: translate(-50%, -50%);
+}
+#Button2 {
+position: absolute;
+ left: 39%;
+  top: 68%;
+}
+</style>
+</head>
+<body>
+
+<button id="Button1">Yes!</button>
+
+<button id="Button2">No</button>
+<script>
+const Button2 = document.getElementById('Button2');
+let left = 40;
+Button2.addEventListener('mouseover', function() {
+  if(left == 40){
+    left = 48;
+  }else{
+    left = 40;
+  }
+  this.style.left = left + '%';
+});
+
+</script>
+<script>document.getElementById('Button1').addEventListener('click', function() {
+alert('I LOVE U SO MUCH BUGLI💕');
+});
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
